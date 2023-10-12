@@ -32,7 +32,7 @@ header img {
 
 
 .navigation__link:hover {
-color: var(--blue);
+color: var(--red);
 }
 
 .navigation__link::after {
@@ -42,7 +42,7 @@ color: var(--blue);
   bottom: -2px;
   width: 60%;
   height: 1px;
-  background: var(--blue);
+  background: var(--red);
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 0.4s;
