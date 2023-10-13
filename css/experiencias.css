@@ -1,0 +1,52 @@
+
+
+.experiencias {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 100px;
+}
+
+.experiencia-container {
+  background-color: #141414dc;
+  padding: 40px 40px;
+}
+
+.experiencias > img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.experiencias h1 {
+font-family: 'IM Fell French Canon SC', serif;
+max-width: 50ch;
+text-align: center;
+font-size: 2.5rem;
+line-height: 1.125;
+margin-bottom: 30px;
+position: relative;
+color: var(--blue);
+text-shadow: 1px 1px 3px rgba(18, 62, 129, 0.233);
+padding: 10px;
+}
+
+.experiencias,
+p,
+h1,
+ strong {
+color: var(--red);
+}
+
+.experiencias p {
+  font-family: 'Young Serif', serif;;
+  font-size: 1.5rem;
+  color: var(--blue1);
+  position: relative;
+  text-align: center;
+}
+
