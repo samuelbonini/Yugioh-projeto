@@ -8,10 +8,18 @@
   align-items: center;
 }
 
-.introducao > img {
+.introducao img {
   position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
+@media (max-width: 800px) {
+  .introducao img {
+    max-width: 100%;
+    height: auto;
+   
+  }
+  
+}
