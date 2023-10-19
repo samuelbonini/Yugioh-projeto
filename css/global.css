@@ -26,6 +26,12 @@
   --yellow: #ffc12b;
 }
 
+body {
+  
+  align-items: center;
+  justify-content: center;
+}
+
 body,
 button,
 a {
@@ -37,11 +43,3 @@ button:hover {
   cursor: pointer;
 }
 
-ulk
-
-
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}

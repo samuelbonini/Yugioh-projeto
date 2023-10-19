@@ -1,17 +1,15 @@
-
-
 .experiencias {
   max-width: 1200px;
   padding: 40px 20px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 100px;
+  display: flex;
+  justify-content: center;
 }
 
 .experiencia-container {
   background-color: #141414dc;
   padding: 40px 40px;
+  border-radius: 20px;
 }
 
 .experiencias > img {
@@ -35,8 +33,6 @@ text-shadow: 1px 1px 3px rgba(18, 62, 129, 0.233);
 padding: 10px;
 }
 
-
-
 .experiencias,
 p,
 h1,
@@ -56,12 +52,23 @@ color: var(--red);
 font-family: 'matrix', Courier, monospace;
 }
 
-@media (max-width: 800) {
-  .experiencias > p {
-    font-size: 1rem;
-  }
-.experiencias h1 {
-  font-size: 1rem;
+@media (max-width: 800px) {
 
+.experiencias h1 {
+    font-size: 2.0rem;
+  }
+.experiencias p {
+  font-size: 1.3rem;
 }
 }
+
+@media (max-width: 450px) {
+  .experiencias h1 {
+    font-size: 1.8rem;
+  }
+.experiencias p {
+  font-size: 1.3rem;
+}
+}
+
+
