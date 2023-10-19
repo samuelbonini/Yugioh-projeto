@@ -3,6 +3,10 @@
 @import url('introducao.css');
 @import url('experiencias.css');
 @import url('footer.css');
+@font-face {
+  font-family: "matrix";
+  src: url(../fonte/Matrix\ II\ Bold.otf);
+}
 
 
 
