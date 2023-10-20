@@ -1,15 +1,13 @@
-@import url('background.css');
-@import url('header.css');
-@import url('introducao.css');
-@import url('experiencias.css');
-@import url('footer.css');
+@import url("background.css");
+@import url("header.css");
+@import url("introducao.css");
+@import url("conteudo1.css");
+@import url("footer.css");
+@import url("ranking.css");
 @font-face {
   font-family: "matrix";
   src: url(../fonte/Matrix\ II\ Bold.otf);
 }
-
-
-
 
 * {
   padding: 0;
@@ -24,10 +22,10 @@
   --blue1: #6282c2;
   --green: #14b02d;
   --yellow: #ffc12b;
+  --red2: #250202;
 }
 
 body {
-  
   align-items: center;
   justify-content: center;
 }
@@ -42,4 +40,3 @@ a {
 button:hover {
   cursor: pointer;
 }
-

@@ -1,0 +1,70 @@
+.conteudo1 {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.conteudo1-container {
+  background-color: #141414dc;
+  padding: 40px 40px;
+  border-radius: 20px;
+}
+
+.conteudo1 > img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.conteudo1 h1 {
+  font-family: "Readex Pro", serif;
+  max-width: 50ch;
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 1.125;
+  margin-bottom: 30px;
+  position: relative;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 3px rgba(18, 62, 129, 0.233);
+  padding: 10px;
+}
+
+.conteudo1,
+p,
+h1,
+strong {
+  color: var(--red);
+}
+
+.conteudo1 p {
+  font-family: "Readex Pro", serif;
+  font-size: 1.5rem;
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+.conteudo1 strong {
+  font-family: "matrix", Courier, monospace;
+}
+
+@media (max-width: 800px) {
+  .conteudo1 h1 {
+    font-size: 2rem;
+  }
+  .conteudo1 p {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .conteudo1 h1 {
+    font-size: 1.8rem;
+  }
+  .conteudo1 p {
+    font-size: 1.3rem;
+  }
+}

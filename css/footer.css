@@ -1,5 +1,5 @@
 .footer {
-  background: #00000060;
+  background: var(--red2);
   padding: 10px;
   display: grid;
  }
