@@ -46,6 +46,7 @@ gap: 10px;
 
 .header_menu a:hover {
   border: 1px solid var(--red);
+  border-radius: 10%;
 }
 
 .socialmidia a {
@@ -70,4 +71,18 @@ padding: 5px;
     height: 80px;
   }
 }
+
+@media (max-width: 550px) {
+  .header_menu {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    gap: 10px;
+   }
+  .header img {
+    max-width: 100%;
+    height: auto;
+    height: 80px;
+  }
+}
+
 
