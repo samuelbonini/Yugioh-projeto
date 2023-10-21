@@ -11,18 +11,18 @@
   background-attachment: fixed;
 }
 
-header {
+#header-ranking {
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
 }
 
-header img {
+#header-ranking img {
 width: 400px;
 }
 
-header .title {
+#header-ranking .title {
 background-color: var(--red2);
 width: 500px;
 border-radius: 30px;
@@ -55,7 +55,7 @@ padding: 30px;
   padding: 58px;
 }
 
-ul {
+#ul-ranking {
   list-style: none;
   width: 100%;
   display: flex;
@@ -72,7 +72,7 @@ li {
   text-align: center;
 }
 
-li:nth-child(2) {
+#li-ranking:nth-child(2) {
   padding-bottom: 250px;
 }
 
@@ -89,4 +89,9 @@ li img {
   height: 100px;
   border: unset;
   padding: unset;
+}
+
+#footer-ranking {
+  background: var(--red2);
+  
 }
