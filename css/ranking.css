@@ -12,7 +12,7 @@
 }
 
 .imagem-ranking {
-  padding: 20px 10px;
+  padding: 15px 0;
 }
 
 #header-ranking {
@@ -36,6 +36,7 @@ width: 400px;
 width: 500px;
 border-radius: 30px;
 padding: 20px;
+margin: 15px;
 text-align: center;
 font-size: 1.30rem;
 font-family: "Readex Pro", serif;;
@@ -56,37 +57,32 @@ padding: 20px;
 
 .podium {
   display: flex;
-  gap: 20px;
   align-items: center;
   justify-content: center;
-  gap: 20px;
   width: 50%;
-  padding: 58px;
+  padding-top: 80px;
 }
 
-#ul-ranking {
+main #ul-ranking {
+  display: flex;
   list-style: none;
   width: 100%;
-  display: flex;
   align-items: center;
   justify-content: center;
- 
+  position: relative;
 }
 
-li {
+main li {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  gap: 8px;
+  gap: 3px;
+  margin: 70px;
 }
 
-#li-ranking:nth-child(2) {
-  padding-bottom: 250px;
-}
-
-li img {
+main li img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -94,44 +90,93 @@ li img {
   border: 2px solid var(--red);
 }
 
-#crow {
+main li:nth-child(2) {
+position: absolute;
+top: 0;
+left: 50%;
+transform: translate(-50%);
+width: 170px;
+height: 170px;
+z-index: 200;
+margin: unset;
+}
+
+
+
+
+main #crow {
   width: 60px;
   height: 60px;
   border: unset;
   padding: unset;
 }
 
-li p {
-  font-size: 18px;
+main li p {
+  font-size: 15px;
   font-weight: bold;
   color: var(--text);
 }
 
-li span {
+main li span {
   font-size: 20px;
+  font-weight: bold;
 }
 
 #footer-ranking {
   background: var(--red2);
 }
 
-.segundo-lugar {
+.revenue {
   font-family: 'gstatic', Courier, monospace;
   color: var(--yellow);
   font-size: 20px;
   font-weight: bold;
 }
 
-.primeiro-lugar {
-  font-family: 'gstatic', Courier, monospace;
-  font-weight: bold;
-  color: var(--yellow);
-  font-size: 20px;
+.section-rank {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
-.terceiro-lugar {
-  font-family: 'gstatic', Courier, monospace;
+.rank-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+ width: 50%;
+}
+
+.rank {
+  background-color: var(--red2);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  gap: 20px;
+  padding: 20px;
+}
+
+section li img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+section li p {
+  text-align: center;
+  min-width: 200px;
+  font-size: 18px;
+  color: var(--text);
+}
+
+section li span:last-child {
+  font-size: 18px;
+  font-weight: bold;
   color: var(--yellow);
-  font-size: 20px;
+}
+
+.rank-number {
   font-weight: bold;
 }
