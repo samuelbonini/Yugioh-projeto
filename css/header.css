@@ -19,6 +19,14 @@
   list-style-type: none;
 }
 
+.header_menu li:hover {
+  scale: 1.1;
+}
+
+.socialmidia img:hover {
+  scale: 1.2;
+}
+
 .imagem1 {
   padding-left: 50px;
 }
