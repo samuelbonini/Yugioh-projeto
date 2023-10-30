@@ -55,13 +55,15 @@ strong {
   font-family: "matrix", Courier, monospace;
 }
 
-.download-ygo {
+.download-ygo,
+.download-png img {
   font-family: "Readex Pro", serif;
   font-size: 1.4rem;
   color: rgb(0, 178, 248);
 }
 
 @media (max-width: 800px) {
+  
   .conteudo1 h1 {
     font-size: 2rem;
   }
