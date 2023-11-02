@@ -243,6 +243,11 @@ section li span:last-child {
     height: 7.5rem;
     }
 
+    #header-ranking .title {
+    width: 21.25rem;
+    font-size: 1.30rem;
+    }
+
     section {
       padding: 1.25rem;
       align-items: unset;
