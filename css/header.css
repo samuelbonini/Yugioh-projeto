@@ -1,24 +1,24 @@
 .header {
   display: grid;
   grid-template-areas: 
-  "img1 nav rede"
-  "img2 img2 img2"
+  "logo nav rede"
+  "rivals rivals rivals"
   "conteudo conteudo conteudo"
+  "footer footer footer"
   ;
-  grid-gap: 20px;
+  gap: 20px;
   text-align: center;
   padding-top: 20px;
   max-width: 1200px;
 }
 
-.menu_geral {
-
+.menu-div {
+  grid-area: nav;
 }
 
-.header_menu {
- 
+.socialmidia {
+  grid-area: rede;
 }
-
 
 .header img {
   max-width: 100%;
@@ -40,7 +40,7 @@
 }
 
 .imagem1 {
-  padding-left: 50px;
+ grid-area: logo;
 }
 
 .imagem_rivals {
