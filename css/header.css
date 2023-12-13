@@ -6,10 +6,9 @@
   "conteudo conteudo conteudo"
   "footer footer footer"
   ;
-  gap: 20px;
+  gap: 30px;
   text-align: center;
   padding-top: 20px;
-  max-width: 1200px;
 }
 
 .menu-div {
