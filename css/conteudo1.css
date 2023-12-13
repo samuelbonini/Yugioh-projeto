@@ -1,11 +1,11 @@
 .conteudo1 {
- 
-  grid-template-columns: 1200px;
+  max-width: 1200px;
   padding: 40px 20px;
   margin: 0 auto;
-  display: grid;
+  display: flex;
   justify-content: center;
 }
+
 
 .conteudo1-container {
   background-color: #141414dc;

@@ -1,22 +1,17 @@
 .header {
-  display: grid;
-  grid-template-areas: 
-  "logo nav rede"
-  "rivals rivals rivals"
-  "conteudo conteudo conteudo"
-  "footer footer footer"
-  ;
-  gap: 30px;
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.menu-div {
-  grid-area: nav;
-}
-
-.socialmidia {
-  grid-area: rede;
+.header_menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .header img {
@@ -39,7 +34,7 @@
 }
 
 .imagem1 {
- grid-area: logo;
+  padding-left: 50px;
 }
 
 .imagem_rivals {
