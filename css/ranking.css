@@ -21,7 +21,7 @@ body {
 }
 
 #imagem-ranking {
-  width: 25rem;
+  width: 400px;
   padding: 15px 0;
   transition: scale 0.8s;
 }
@@ -98,11 +98,11 @@ main li {
 }
 
 main li img {
-  width: 9.375rem;
-  height: 9.375rem;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   padding: 0.125rem;
-  border: 0.125rem solid var(--red);
+  border: 0.125rem solid rgba(207, 112, 112, 0.212);
   transition: scale 0.5s;
 }
 
